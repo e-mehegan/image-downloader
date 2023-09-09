@@ -29,7 +29,7 @@ describe("Retrieve a Pokemon URL", () => {
 
 	test("If given an ID of 25, url is expected correct URL", async () => {
 		let result = await getPokemonPictureUrl(25);
-
+  
 		expect(result).toEqual(expectedImageUrl);
 
 	})
